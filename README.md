@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
-Made for React, so it relies on JS and hence uses the main thread (so you should use Framer Motion thoughtfully), but you can animate things that just aren't possible to animate with CSS, like transition animation between display modes, or even transitioning between completely different HTML elements!
+Made for React, so it relies on JS and hence uses the main thread (so you should use Framer Motion thoughtfully - CSS doesn't run on the main thread), but you can animate things that just aren't possible to animate with CSS, like transition animation between display modes, or even transitioning between completely different HTML elements!
 
 How? ["FLIP"](https://css-tricks.com/animating-layouts-with-the-flip-technique/#aa-what-is-flip): **F**irst, **L**ast, **I**nvert, **P**lay.
 
@@ -14,21 +14,13 @@ Intro: https://www.framer.com/docs/introduction
 
 Example: https://codesandbox.io/s/framer-motion-side-menu-mx2rw
 
-## From scratch
+## Notes
 
-Using [`yarn`](https://github.com/hchiam/learning-yarn):
+https://www.framer.com/docs/examples
 
-```bash
-yarn add framer-motion
-```
+https://codesandbox.io/s/framer-motion-side-menu-mx2rw
 
-Or with `npm`:
-
-```bash
-npm install framer-motion
-```
-
-And then:
+And then try out stuff like these:
 
 ```jsx
 import { motion } from "framer-motion";
@@ -79,16 +71,6 @@ const { scrollYProgress } = useViewportScroll();
 return <motion.path style={{ pathLength: scrollYProgress }} />;
 ```
 
-## Starting by testing out this repo
+## Start from scratch
 
-Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
-
-```bash
-git clone https://github.com/hchiam/learning-framer-motion.git && cd learning-framer-motion && yarn; # and then ...
-```
-
-Or with `npm`: (triple-click to select all)
-
-```bash
-git clone https://github.com/hchiam/learning-framer-motion.git && cd learning-framer-motion && npm install; # and then ...
-```
+TODO (couldn't get it to work with CRA nor with a downloaded copy of the codesandbox to play with locally)
