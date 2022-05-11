@@ -12,6 +12,8 @@ Docs: https://www.framer.com/docs
 
 Intro: https://www.framer.com/docs/introduction
 
+Example: https://codesandbox.io/s/framer-motion-side-menu-mx2rw
+
 ## From scratch
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn):
